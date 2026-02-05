@@ -6,6 +6,8 @@ Este projeto não tem como objetivo imedato implementar um sistema completo, mas
 
 A proposta do projeto é explorar a área de Dados de forma expansiva e incremental, evoluindo continuamente com base no que é tangível, mensurável e possível a partir do dataset disponível.
 
+[Dataset utilizado](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?select=product_category_name_translation.csv)
+
 ## 1. Objetivos do Projeto
 
 - Analisar padrões de tempo de entrega, contrastando prazo estimado vs. prazo real.
