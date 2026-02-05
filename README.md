@@ -6,20 +6,20 @@ Este projeto não tem como o bjetivo imedato implementar um sistema completo, ma
 
 A proposta do projeto é explorar a área de Dados de forma expansiva e incremental, evoluindo continuamente com base no que é tangível, mensurável e possível a partir do dataset disponível.
 
-## 🎯 Objetivos do Projeto
+## 1. Objetivos do Projeto
 
 - Analisar padrões de tempo de entrega, contrastando prazo estimado vs. prazo real.
 - Investigar a relação entre dados operacionais e avaliações dos clientes.
 - Aplicar técnicas de NLP para integrar dados estruturados e não estruturados
 - Criar uma base analítica sólida para análises preditivas e aplicações de NLP.
 
-## 🧩 Planejamento do projeto seguindo Project Model Canvas
+## 2. Planejamento do projeto seguindo Project Model Canvas
 
 O planejamento do projeto foi estruturado utilizando o Project Model Canvas, com foco em clareza de objetivos, entregáveis e evolução contínua.
 
 ![Project Model Canvas do projeto](assets/cx_project_model_canvas.png)
 
-## 🧪 Metodologia
+## 3. Metodologia
 
 A metodologia do projeto está organizada em notebooks, cada um representando uma etapa específica do workflow analítico.
 
@@ -47,7 +47,13 @@ A metodologia do projeto está organizada em notebooks, cada um representando um
 - Aplicação de NLP para validar, via linguagem, padrões já sugeridos pelos dados numéricos
 - Consolidação das conclusões analíticas do projeto
 
-## 🔍 Achados principais
+#### 5️⃣ Construção de modelo
+
+- Utiliza Regressão Linear para analisar a correlação com os dados de entrega
+- Avaliação do modelo e verificação dos coeficientes
+- Julgamento da viabilidade do aumento do escopo do projeto
+
+## 4. Achados principais
 
 Atrasos de entrega e maior tempo de espera afetam de forma significativa a experiência do cliente. Avaliações negativas apresentam padrões linguísticos recorrentes, fortemente associados à frustração com problemas logísticos e falhas na entrega.
 
@@ -55,14 +61,14 @@ A combinação de métricas de atraso com análise textual proporcionou uma comp
 
 Porém, por mais que os resultados indicam que exista sinal, ele é insuficiente para sustentar decisões de automação sem a incorporação de outros dados de informação.
 
-## 🛠️ Tech Stack
+## 5. Tech Stack
 
 - Python
 - Pandas & Matplotlib
 - Scikit-learn
 - NLTK
 
-## 🚧 Limitações & Escopo
+## 6. Limitações & Escopo
 
 Até o momento, o projeto está focado em análise de dados e geração de insights.
 
@@ -72,7 +78,7 @@ O uso de NLP está direcionado principalmente à interpretabilidade, e não à c
 
 Essas limitações são intencionais e seguem uma abordagem orientada ao entendimento do problema antes da automação.
 
-## 💡 Importância do projeto
+## 8. Importância do projeto
 
 Este projeto demonstra o uso da análise de dados para investigar problemas reais de mercado, conectando métricas operacionais à perspectiva do cliente.
 
@@ -82,7 +88,7 @@ Ele evidencia a capacidade de:
 - Integrar diferentes tipos de dados.
 - Trabalhar com hipóteses de forma analítica e iterativa.
 
-## 👤 Sobre o desenvolvedor:
+## 9. Sobre o desenvolvedor:
 
 Olá! Meu nome é Vinícius Spósito, sou estudante de Ciência da Computação e estou explorando a área de Ciência de Dados.
 
