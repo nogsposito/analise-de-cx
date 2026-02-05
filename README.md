@@ -1,4 +1,4 @@
-# CX Analytics Engine
+# Análise de CX
 
 Este projeto tem como objetivo analisar a experiência do cliente em e-commerces, explorando dados de pedidos, entregas e avaliações (numéricas e textuais) para compreender como atrasos logísticos impactam a insatisfação do cliente e a percepção do serviço.
 
