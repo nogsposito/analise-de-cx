@@ -1,8 +1,8 @@
 # Análise de CX
 
-Este projeto tem como objetivo analisar a experiência do cliente em e-commerces, explorando dados de pedidos, entregas e avaliações (numéricas e textuais) para compreender como atrasos logísticos impactam a insatisfação do cliente e a percepção do serviço.
+Este projeto tem como objetivo analisar a experiência do cliente em e-commerces, explorando dados de pedidos, entregas e avaliações (numéricas e textuais) para compreender como atrasos logísticos impactam a insatisfação do cliente e a percepção do serviço, analisando também em que ponto que a experiência do cliente se deteriora significativamente.
 
-Este projeto não tem como o bjetivo imedato implementar um sistema completo, mas sim avaliar a viabilidade do uso de dados logísticos para antecipar a insatisfação de clientes.
+Este projeto não tem como objetivo imedato implementar um sistema completo, mas sim avaliar a viabilidade do uso de dados logísticos para antecipar a insatisfação de clientes.
 
 A proposta do projeto é explorar a área de Dados de forma expansiva e incremental, evoluindo continuamente com base no que é tangível, mensurável e possível a partir do dataset disponível.
 
@@ -12,6 +12,7 @@ A proposta do projeto é explorar a área de Dados de forma expansiva e incremen
 - Investigar a relação entre dados operacionais e avaliações dos clientes.
 - Aplicar técnicas de NLP para integrar dados estruturados e não estruturados
 - Criar uma base analítica sólida para análises preditivas e aplicações de NLP.
+- Entender o ponto chave em que se evita a insatisfação do cliente.
 
 ## 2. Planejamento do projeto seguindo Project Model Canvas
 
@@ -52,6 +53,12 @@ A metodologia do projeto está organizada em notebooks, cada um representando um
 - Utiliza Regressão Linear para analisar a correlação com os dados de entrega
 - Avaliação do modelo e verificação dos coeficientes
 - Julgamento da viabilidade do aumento do escopo do projeto
+
+#### 6️⃣ Análise de satisfação e definição de SLA
+
+- Avaliação empírica da relação entre tempo de entrega e taxa de satisfação dos clientes
+- Identificação de um limiar a partir do qual a satisfação média apresenta queda significativa
+- Estabelecimento de um limite operacional de entrega orientado por dados de experiência do cliente
 
 ## 4. Achados principais
 
