@@ -2,14 +2,16 @@
 
 Este projeto tem como objetivo analisar a experiência do cliente em e-commerces, explorando dados de pedidos, entregas e avaliações (numéricas e textuais) para compreender como atrasos logísticos impactam a insatisfação do cliente e a percepção do serviço.
 
+Este projeto não tem como o bjetivo imedato implementar um sistema completo, mas sim avaliar a viabilidade do uso de dados logísticos para antecipar a insatisfação de clientes.
+
 A proposta do projeto é explorar a área de Dados de forma expansiva e incremental, evoluindo continuamente com base no que é tangível, mensurável e possível a partir do dataset disponível.
 
 ## 🎯 Objetivos do Projeto
 
-- Analisar padrões de tempo de entrega, contrastando prazo estimado vs. prazo real
-- Investigar a relação entre dados operacionais e avaliações dos clientes
+- Analisar padrões de tempo de entrega, contrastando prazo estimado vs. prazo real.
+- Investigar a relação entre dados operacionais e avaliações dos clientes.
 - Aplicar técnicas de NLP para integrar dados estruturados e não estruturados
-- Criar uma base analítica sólida para análises preditivas e aplicações futuras de NLP
+- Criar uma base analítica sólida para análises preditivas e aplicações de NLP.
 
 ## 🧩 Planejamento do projeto seguindo Project Model Canvas
 
@@ -51,6 +53,8 @@ Atrasos de entrega e maior tempo de espera afetam de forma significativa a exper
 
 A combinação de métricas de atraso com análise textual proporcionou uma compreensão mais rica e consistente da experiência do cliente, com sinais que se reforçam mutuamente.
 
+Porém, por mais que os resultados indicam que exista sinal, ele é insuficiente para sustentar decisões de automação sem a incorporação de outros dados de informação.
+
 ## 🛠️ Tech Stack
 
 - Python
@@ -61,17 +65,12 @@ A combinação de métricas de atraso com análise textual proporcionou uma comp
 ## 🚧 Limitações & Escopo
 
 Até o momento, o projeto está focado em análise de dados e geração de insights.
+
 Ainda não há um modelo em produção nem um pipeline end-to-end implementado.
+
 O uso de NLP está direcionado principalmente à interpretabilidade, e não à classificação automática.
 
-Essas limitações são intencionais e refletem uma abordagem orientada ao entendimento do problema antes da automação.
-
-## 🚀 Próximos passos
-
-- Definição de um Experience Risk Score
-- Construção de um pipeline completo de dados
-- Treinamento de modelos de classificação ou regressão
-- Automação para monitoramento contínuo de novas entregas
+Essas limitações são intencionais e seguem uma abordagem orientada ao entendimento do problema antes da automação.
 
 ## 💡 Importância do projeto
 
@@ -79,9 +78,9 @@ Este projeto demonstra o uso da análise de dados para investigar problemas reai
 
 Ele evidencia a capacidade de:
 
-- Traduzir dados em insights acionáveis
-- Integrar diferentes tipos de dados
-- Trabalhar com hipóteses de forma analítica e iterativa
+- Traduzir dados em insights.
+- Integrar diferentes tipos de dados.
+- Trabalhar com hipóteses de forma analítica e iterativa.
 
 ## 👤 Sobre o desenvolvedor:
 
