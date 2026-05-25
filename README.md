@@ -1,74 +1,76 @@
-# Análise de CX
+*🇺🇸 Read in English | 🇧🇷 [Ler em Português](README.pt-br.md)*
 
-Este projeto tem como objetivo analisar a experiência do cliente em e-commerces, explorando dados de pedidos, entregas e avaliações (numéricas e textuais) para compreender como atrasos logísticos impactam a insatisfação do cliente e a percepção do serviço, analisando também em que ponto que a experiência do cliente se deteriora significativamente.
+# CX Analysis
 
-Este projeto não tem como objetivo imedato implementar um sistema completo, mas sim avaliar a viabilidade do uso de dados logísticos para antecipar a insatisfação de clientes.
+This project aims to analyze the customer experience in e-commerce by exploring order, delivery, and review data (both numerical and textual). The goal is to understand how logistical delays impact customer dissatisfaction and service perception, as well as to identify the point at which the customer experience deteriorates significantly.
 
-A proposta do projeto é explorar a área de Dados de forma expansiva e incremental, evoluindo continuamente com base no que é tangível, mensurável e possível a partir do dataset disponível.
+This project does not aim to immediately implement a complete system, but rather to evaluate the feasibility of using logistical data to anticipate customer dissatisfaction.
 
-[Dataset utilizado](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?select=product_category_name_translation.csv)
+The project's proposal is to explore the Data field in an expansive and incremental way, continuously evolving based on what is tangible, measurable, and possible from the available dataset.
 
-## 1. Objetivos do Projeto
+[Dataset used](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?select=product_category_name_translation.csv)
 
-- Analisar padrões de tempo de entrega, contrastando prazo estimado vs. prazo real.
-- Investigar a relação entre dados operacionais e avaliações dos clientes.
-- Aplicar técnicas de NLP para integrar dados estruturados e não estruturados
-- Criar uma base analítica sólida para análises preditivas e aplicações de NLP.
-- Entender o ponto chave em que se evita a insatisfação do cliente.
+## 1. Project Objectives
 
-## 2. Planejamento do projeto seguindo Project Model Canvas
+- Analyze delivery time patterns, contrasting estimated vs. actual delivery times.
+- Investigate the relationship between operational data and customer reviews.
+- Apply NLP techniques to integrate structured and unstructured data.
+- Create a solid analytical foundation for predictive analysis and NLP applications.
+- Understand the key tipping point to avoid customer dissatisfaction.
 
-O planejamento do projeto foi estruturado utilizando o Project Model Canvas, com foco em clareza de objetivos, entregáveis e evolução contínua.
+## 2. Project Planning using Project Model Canvas
 
-![Project Model Canvas do projeto](assets/cx_project_model_canvas.png)
+The project planning was structured using the Project Model Canvas, focusing on clear objectives, deliverables, and continuous evolution.
 
-## 3. Metodologia
+![Project Model Canvas](assets/cx_project_model_canvas.png)
 
-A metodologia do projeto está organizada em notebooks, cada um representando uma etapa específica do workflow analítico.
+## 3. Methodology
 
-#### 1️⃣ Compreensão dos dados
+The project methodology is organized into notebooks, each representing a specific stage of the analytical workflow.
 
-- Inspeção inicial dos dados brutos
-- Entendimento das variáveis disponíveis
-- Avaliação do potencial analítico do dataset
+#### 1️⃣ Data Understanding
 
-#### 2️⃣ Limpeza dos dados
+- Initial inspection of raw data
+- Understanding of available variables
+- Evaluation of the dataset's analytical potential
 
-- Tratamento de valores ausentes e inconsistências
-- Seleção de dados relevantes para o escopo do projeto
-- Agrupamento de informações que devem funcionar de forma integrada
+#### 2️⃣ Data Cleaning
 
-#### 3️⃣ Análise Exploratória
+- Handling missing values and inconsistencies
+- Selection of relevant data for the project scope
+- Grouping information that should work seamlessly together
 
-- Análise da relação entre atrasos de entrega e avaliações dos clientes
-- Uso de visualizações para identificar padrões e correlações
-- Extração de insights a partir de distribuições e comparações
+#### 3️⃣ Exploratory Data Analysis (EDA)
 
-#### 4️⃣ Conclusões da análise
+- Analysis of the relationship between delivery delays and customer reviews
+- Use of visualizations to identify patterns and correlations
+- Extraction of insights from distributions and comparisons
 
-- Aprofundamento das correlações observadas
-- Aplicação de NLP para validar, via linguagem, padrões já sugeridos pelos dados numéricos
-- Consolidação das conclusões analíticas do projeto
+#### 4️⃣ Analysis Conclusions
 
-#### 5️⃣ Construção de modelo
+- Deepening the observed correlations
+- Application of NLP to validate, through language, patterns already suggested by numerical data
+- Consolidation of the project's analytical conclusions
 
-- Utiliza Regressão Linear para analisar a correlação com os dados de entrega
-- Avaliação do modelo e verificação dos coeficientes
-- Julgamento da viabilidade do aumento do escopo do projeto
+#### 5️⃣ Model Building
 
-#### 6️⃣ Análise de satisfação e definição de SLA
+- Uses Linear Regression to analyze the correlation with delivery data
+- Model evaluation and coefficient verification
+- Assessment of the feasibility of expanding the project scope
 
-- Avaliação empírica da relação entre tempo de entrega e taxa de satisfação dos clientes
-- Identificação de um limiar a partir do qual a satisfação média apresenta queda significativa
-- Estabelecimento de um limite operacional de entrega orientado por dados de experiência do cliente
+#### 6️⃣ Satisfaction Analysis and SLA Definition
 
-## 4. Achados principais
+- Empirical evaluation of the relationship between delivery time and customer satisfaction rate
+- Identification of a threshold from which the average satisfaction shows a significant drop
+- Establishment of an operational delivery limit driven by customer experience data
 
-Atrasos de entrega e maior tempo de espera afetam de forma significativa a experiência do cliente. Avaliações negativas apresentam padrões linguísticos recorrentes, fortemente associados à frustração com problemas logísticos e falhas na entrega.
+## 4. Key Findings
 
-A combinação de métricas de atraso com análise textual proporcionou uma compreensão mais rica e consistente da experiência do cliente, com sinais que se reforçam mutuamente.
+Delivery delays and longer waiting times significantly affect the customer experience. Negative reviews show recurring linguistic patterns, strongly associated with frustration over logistical issues and delivery failures.
 
-Porém, por mais que os resultados indicam que exista sinal, ele é insuficiente para sustentar decisões de automação sem a incorporação de outros dados de informação.
+Combining delay metrics with textual analysis provided a richer and more consistent understanding of the customer experience, with signals that mutually reinforce each other.
+
+However, although the results indicate a signal exists, it is insufficient to support automation decisions without incorporating additional data sources.
 
 ## 5. Tech Stack
 
@@ -77,32 +79,32 @@ Porém, por mais que os resultados indicam que exista sinal, ele é insuficiente
 - Scikit-learn
 - NLTK
 
-## 6. Limitações & Escopo
+## 6. Limitations & Scope
 
-Até o momento, o projeto está focado em análise de dados e geração de insights.
+So far, the project is focused on data analysis and insight generation.
 
-Ainda não há um modelo em produção nem um pipeline end-to-end implementado.
+There is no production model or end-to-end pipeline implemented yet.
 
-O uso de NLP está direcionado principalmente à interpretabilidade, e não à classificação automática.
+The use of NLP is primarily directed towards interpretability, not automatic classification.
 
-Essas limitações são intencionais e seguem uma abordagem orientada ao entendimento do problema antes da automação.
+These limitations are intentional and follow an approach focused on understanding the problem prior to automation.
 
-## 8. Importância do projeto
+## 8. Project Importance
 
-Este projeto demonstra o uso da análise de dados para investigar problemas reais de mercado, conectando métricas operacionais à perspectiva do cliente.
+This project demonstrates the use of data analysis to investigate real market problems, connecting operational metrics to the customer's perspective.
 
-Ele evidencia a capacidade de:
+It highlights the ability to:
 
-- Traduzir dados em insights.
-- Integrar diferentes tipos de dados.
-- Trabalhar com hipóteses de forma analítica e iterativa.
+- Translate data into insights.
+- Integrate different types of data.
+- Work with hypotheses in an analytical and iterative manner.
 
-## 9. Sobre o desenvolvedor:
+## 9. About the Developer
 
-Olá! Meu nome é Vinícius Spósito, sou estudante de Ciência da Computação e estou explorando a área de Ciência de Dados.
+Hello! My name is Vinícius Spósito, I am a Computer Science student currently exploring the field of Data Science.
 
-Este projeto tem sido fundamental para o meu desenvolvimento, proporcionando uma experiência prática e realista sobre o workflow completo de um projeto de Dados, desde a exploração inicial até a definição de caminhos futuros.
+This project has been fundamental to my development, providing a practical and realistic experience of the complete workflow of a Data project, from initial exploration to the definition of future paths.
 
-Contato: nogsposito@gmail.com
+Contact: nogsposito@gmail.com
 
-[LinkedIn](www.linkedin.com/in/vinicius-sposito)
+[LinkedIn](https://www.linkedin.com/in/vinicius-sposito)
